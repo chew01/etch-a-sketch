@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 60px);
+    grid-template-rows: repeat(16, 60px);
+    max-height: 960px;
+    max-width: 960px;
+}
+
+.square {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.hovered {
+    background-color: pink;
+}
